@@ -104,4 +104,79 @@ Conditional Statements are the Condition reason to accept and respond accordingl
             break; 
     } 
     console.log(`The value is ${a}`); 
-    
+
+# Looping Statements
+
+## For Loop
+
+**Syntax:**
+
+```javascript
+for (initialization; condition; increment/decrement) {
+    // statements
+}
+```
+
+**Example:**
+
+```javascript
+for (let i = 0; i < 3; i++) {
+    console.log(i);
+}
+```
+
+---
+
+## While Loop
+
+**Syntax:**
+
+```javascript
+initialization;
+
+while (condition) {
+    // statements
+    // Increment/decrement
+}
+```
+
+**Example:**
+
+```javascript
+let a = 0;
+while (a < 3) {
+    console.log(a);
+    a++;
+}
+```
+
+---
+
+## Do-While Loop
+
+**Syntax:**
+
+```javascript
+initialization;
+
+do {
+    // statements
+    // Increment/decrement
+} while (condition);
+```
+
+**Example:**
+
+```javascript
+let a = 0;
+do {
+    console.log(a);
+    a++;
+} while (a < 3);
+```
+
+
+# Points to Remember
+* 0/0,-0/0,-0.0/0,0.0/0,'0'/0,'0'/0 are Not A Number(NaN) Values
+* Number/0 value is Infinity.
+
